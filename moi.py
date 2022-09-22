@@ -25,7 +25,7 @@ class suomipeli:
 
     def lataa_kuvat(self):
         self.kuvat = []
-        for nimi in ["lattia", "seina", "kohde", "skidi", "hai", "valmis", "hai", "norppa"]:
+        for nimi in ["lattia", "seina", "skidi", "hai", "valmis", "hai", "norppa"]:
             self.kuvat.append(pygame.image.load(nimi + ".png"))
 
     def uusi_peli(self):
